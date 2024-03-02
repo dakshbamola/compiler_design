@@ -1,7 +1,7 @@
-**Program 2:** Design a lex code to identify and print valid identifier of C/C++ in given input pattern.
+//Program 2: Design a lex code to identify and print valid identifier of C/C++ in given input pattern.
 
-**Code:**
-```lex
+//Code:
+
 %{ 
 #include <stdio.h> 
 %} 
@@ -14,5 +14,4 @@ int yywrap(){return 1;}
 int main(){
 	yylex();
 	return 0; 
-} 
-```
+}
