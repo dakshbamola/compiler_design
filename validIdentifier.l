@@ -1,4 +1,4 @@
-//Program 2: Design a lex code to identify and print valid identifier of C/C++ in given input pattern.
+//Program 3: Design a lex code to identify and print valid identifier of C/C++ in given input pattern.
 
 //Code:
 
