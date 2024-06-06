@@ -10,7 +10,7 @@ Then you'll have to run `gcc lex.yy.c y.tab.c` command.
 
 Lastly run `./a.out` to run your program.
 
-*Note:* When using both yacc and lex file first run `yacc -d file_name.y` command then run `lex file_name.l` command then proceed with `gcc lex.yy.c y.tab.c` and finally `./a.out` to run program.
+- ***Note:*** When using both yacc and lex file first run `yacc -d file_name.y` command then run `lex file_name.l` command then proceed with `gcc lex.yy.c y.tab.c` and finally `./a.out` to run program.
 
 Some function that we will be using
 
