@@ -4,7 +4,13 @@ You can run the lex ".l" file using the command `lex file_name.l`.
 
 Then you'll have to run `gcc lex.yy.c` command. A new file will be created.
 
+For yacc file you will have to run it first by `yacc -d file_name.y` command.
+
+Then you'll have to run `gcc lex.yy.c y.tab.c` command.
+
 Lastly run `./a.out` to run your program.
+
+*Note:* When using both yacc and lex file first run `yacc -d file_name.y` command then run `lex file_name.l` command then proceed with `gcc lex.yy.c y.tab.c` and finally `./a.out` to run program.
 
 Some function that we will be using
 
